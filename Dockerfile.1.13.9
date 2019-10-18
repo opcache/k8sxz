@@ -9,3 +9,5 @@ RUN wget https://dl.k8s.io/v1.13.9/kubernetes-server-linux-amd64.tar.gz -O /usr/
 ##Node Binaries
 RUN wget https://dl.k8s.io/v1.13.9/kubernetes-node-linux-amd64.tar.gz -O /usr/share/nginx/html/kubernetes-node-linux-amd64.tar.gz
 
+RUN echo "v1.13.9" > /usr/share/nginx/html/v1.13.9.txt
+
